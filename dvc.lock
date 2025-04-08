@@ -33,3 +33,36 @@ stages:
       hash: md5
       md5: adf63b6ce20f7ee74f63d5dabb325226
       size: 10829967
+  preprocess:
+    cmd: python src/preprocessing.py
+    deps:
+    - path: data/iris.data
+      hash: md5
+      md5: 42615765a885ddf54427f12c34a0a070
+      size: 4551
+      isexec: true
+    - path: src/preprocessing.py
+      hash: md5
+      md5: 3d5d85e5aaa26f23823eceb55616eeac
+      size: 2069
+    outs:
+    - path: data/X_test.csv
+      hash: md5
+      md5: 4a4fccbea3c0b4369caaf35adf87f151
+      size: 2394
+    - path: data/X_train.csv
+      hash: md5
+      md5: 8d6b1df422f78ca7ec8d9a86032339c2
+      size: 9445
+    - path: data/scaler.pkl
+      hash: md5
+      md5: bdf8b971261a01ed1d13e5a65307120a
+      size: 1079
+    - path: data/y_test.csv
+      hash: md5
+      md5: 491340b3d3b11a4afb70ba6c16aca6d0
+      size: 437
+    - path: data/y_train.csv
+      hash: md5
+      md5: 9c1273d348c9e31d60c7d5dfb80296be
+      size: 1729
