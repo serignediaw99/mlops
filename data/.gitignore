@@ -1,5 +1,9 @@
-/adult.data
-/adult.test
-/pipeline.pkl
-/processed_train_data.csv
-/processed_test_data.csv
+# Ignore all data files
+*.data
+*.test
+*.csv
+*.pkl
+*.parquet
+
+# But don't ignore .dvc files
+!*.dvc
