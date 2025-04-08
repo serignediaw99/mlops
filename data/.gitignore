@@ -4,6 +4,7 @@
 *.csv
 *.pkl
 *.parquet
+*.names
 
 # But don't ignore .dvc files
 !*.dvc
