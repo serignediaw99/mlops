@@ -1,0 +1,70 @@
+# Data files
+data/*.data
+data/*.test
+data/*.csv
+data/*.pkl
+data/*.parquet
+save_data/
+!data/*.dvc
+
+# Lab specific
+/lab2/lab2_data
+/lab2/save_data
+/lab2/mlruns
+/lab2/mlflow.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# DVC
+.dvc/tmp
+.dvc/cache
+.dvc/state
+.dvc/state-journal
+.dvc/state-wal
+.dvc/config.local
+.dvc/plots
+*.dvc/tmp
+*.dvc/cache
+*.dvc/state
+*.dvc/state-journal
+*.dvc/state-wal
+*.dvc/config.local
+*.dvc/plots
+
+# OS
+.DS_Store
+Thumbs.db
