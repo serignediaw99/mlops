@@ -68,3 +68,36 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+
+# Metaflow
+.metaflow/
+
+# Logs
+*.log
+logs/
+
+# Model files and checkpoints
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+models/
+checkpoints/
+
+# Testing and coverage
+.coverage
+coverage.xml
+.pytest_cache/
+htmlcov/
+.tox/
+nosetests.xml
+
+# Environment variables
+.env
+.envrc
